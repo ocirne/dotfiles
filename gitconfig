@@ -1,0 +1,21 @@
+[user]
+        name = Enrico Pilz
+        email = kontakt@enricopilz.de
+[core]
+        editor = vim
+        excludesfile = ~/.gitignore_global
+[push]
+        default = matching
+[alias]
+        co = checkout
+        ci = commit
+        st = status -sb
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --all
+        deco = log --graph --oneline --decorate --all
+[color]
+        ui = auto
+[commit]
+        template = ~/.gitmessage.txt
+[github]
+        user = ocirne
