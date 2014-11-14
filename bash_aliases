@@ -21,4 +21,8 @@ alias vi='vim'
 alias untargz='tar -xzf'
 alias pep8='pep8 --max-line-length=99'
 alias ack='ack-grep --java -R'
+alias ack-xml='ack-grep --xml -R'
+
+# work
+alias mcee='mvn clean eclipse:eclipse'
 
