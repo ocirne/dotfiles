@@ -13,6 +13,7 @@
         br = branch
         hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --all
         deco = log --graph --oneline --decorate --all
+        praise = blame
 [color]
         ui = auto
 [commit]
