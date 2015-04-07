@@ -24,5 +24,6 @@ alias ack='ack-grep --java -R'
 alias ack-xml='ack-grep --xml -R'
 
 # work
-alias mcee='mvn clean eclipse:eclipse'
-
+alias mce='mvn clean eclipse:eclipse'
+alias mcece='mvn clean eclipse:clean eclipse:eclipse'
+alias egd='eclipse `git diff --name-only HEAD^`'
