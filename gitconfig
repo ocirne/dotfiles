@@ -1,22 +1,24 @@
 [user]
-        name = Enrico Pilz
-        email = kontakt@enricopilz.de
+    name = Enrico Pilz
+    email = kontakt@enricopilz.de
 [core]
-        editor = vim
-        excludesfile = ~/.gitignore_global
+    editor = vim
+    excludesfile = ~/.gitignore_global
 [push]
-        default = matching
+    default = matching
 [alias]
-        co = checkout
-        ci = commit
-        st = status -sb
-        br = branch
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short --all
-        deco = log --graph --oneline --decorate --all
-        praise = blame
+    co = checkout
+    ci = commit
+    st = status -sb
+    br = branch
+    hist = log --pretty=format:\"%C(auto)%h%Creset %ad: %s%C(auto)%d%Creset [%an]\" --graph --date=relative --all
+    simp = log --graph --oneline --simplify-by-decoration --decorate --all
+    praise = blame
+    sh = show -b
+    di = diff -b
 [color]
-        ui = auto
+    ui = auto
 [commit]
-        template = ~/.gitmessage.txt
+    template = ~/.gitmessage.txt
 [github]
-        user = ocirne
+    user = ocirne
