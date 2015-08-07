@@ -20,8 +20,9 @@ alias gpr='git pull --rebase'
 alias vi='vim'
 alias untargz='tar -xzf'
 alias pep8='pep8 --max-line-length=99'
-alias ack='ack-grep --java -R'
-alias ack-xml='ack-grep --xml -R'
+alias ack='ack-grep -k'
+alias ack-java='ack-grep --java'
+alias ack-xml='ack-grep --xml'
 
 # work
 alias mce='mvn clean eclipse:eclipse'
