@@ -18,11 +18,12 @@ fonts-inconsolata (set as default font in terminator)
 dotfiles
 keepassx or relevations
 vim
-htop
-IDE: Eclipse / IntelliJ / etc. pycharm
-sudo apt-get install clipit  ?
+htop   - better top
+IDE: IntelliJ
 gimp
 most
+fdupes - for finding duplicates
+sage   - math stuff
 
 python-dev
 python-pip
